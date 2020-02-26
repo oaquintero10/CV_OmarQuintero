@@ -280,7 +280,55 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+/* ------------------------------------------------------------------ */
+/* d. Experiencia Section
+/* ------------------------------------------------------------------ */
 
+#Experiencia {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#Experiencia a, #Experiencia a:visited  { color: #11ABB0; }
+#Experiencia a:hover, #Experiencia a:focus { color: #313131; }
+
+#Experiencia h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#Experiencia h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#Experiencia h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#Experiencia .header-col { padding-top: 9px; }
+#Experiencia .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#Experiencia .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#Experiencia .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#Experiencia .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -630,7 +678,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +702,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1003,4 +1051,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
